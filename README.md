@@ -138,6 +138,8 @@ Gemini_API_KEY=sk-your-key-here
 ```
 
 ---
+## Image 
+<img width="1340" height="577" alt="Screenshot 2026-08-08 123925" src="https://github.com/user-attachments/assets/67cc5fa3-1238-441b-bfbf-d584ff5ffa9d" />
 
 ## Troubleshooting
 
