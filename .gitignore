@@ -1,0 +1,9 @@
+# ─────────────────────────────────────────────
+#  .gitignore  –  Keep secrets safe
+# ─────────────────────────────────────────────
+.env
+venv/
+__pycache__/
+*.pyc
+chroma_store/
+retail_sales.db
