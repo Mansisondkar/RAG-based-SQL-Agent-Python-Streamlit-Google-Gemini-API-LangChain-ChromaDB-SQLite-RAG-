@@ -1,4 +1,7 @@
-# RetailIQ — AI-Powered Retail Analytics
+RAG-Based SQL Agent
+An AI-powered **Text-to-SQL** web application that converts plain English 
+questions into accurate SQL queries using **Retrieval-Augmented Generation (RAG)**.
+
 
 ## Project Structure
 
