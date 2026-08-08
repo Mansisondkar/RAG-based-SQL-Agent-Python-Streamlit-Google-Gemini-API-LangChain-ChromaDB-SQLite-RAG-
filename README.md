@@ -11,7 +11,7 @@ retail_Sales_Dataset/
 ├── config.py                 ← Paths, API settings, RAG chunks
 ├── database.py               ← CSV → SQLite loader + query executor
 ├── rag_engine.py             ← ChromaDB vector store + retrieval
-├── llm_engine.py             ← DeepSeek API (SQL gen + insights)
+├── llm_engine.py             ← Gemini API (SQL gen + insights)
 ├── sql_validator.py          ← SQL safety & syntax validation
 ├── requirements.txt          ← All dependencies
 ├── retail_sales_dataset.csv  ← Your original dataset (1001 rows)
@@ -64,9 +64,9 @@ This installs: Streamlit, ChromaDB, sentence-transformers, OpenAI SDK, Plotly, p
 
 ---
 
-### Step 5 — Get your DeepSeek API Key
+### Step 5 — Get your Gemini API Key
 
-1. Go to https://platform.deepseek.com
+1. Go to https://ai.google.dev/gemini-api/docs/api-key
 2. Sign up / log in → **API Keys** → Create a new key
 3. Copy the key (starts with `sk-...`)
 
@@ -84,7 +84,7 @@ The browser will open automatically at **http://localhost:8501**
 
 ### Step 7 — Using the App
 
-1. **Paste your DeepSeek API key** in the sidebar (🔑 field)
+1. **Paste your Gemini API key** in the sidebar (🔑 field)
 2. The database and RAG store are **auto-initialized** on startup
 3. **Type a question** in the text box (or click a sample question)
 4. Click **🚀 Run Query**
@@ -134,7 +134,7 @@ User Question
 Instead of entering the API key in UI, create a `.env` file:
 
 ```
-DEEPSEEK_API_KEY=sk-your-key-here
+Gemini_API_KEY=sk-your-key-here
 ```
 
 ---
